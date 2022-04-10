@@ -164,7 +164,7 @@
     background-color: white;
 }
 
-.container_1-container-text-left>button:hover{
+.container_1-container-text-left>a>button:hover{
     background-color: #3572C2;
     color: white;
     transition-duration: 0.3s;
