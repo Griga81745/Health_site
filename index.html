@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="assets/css/style.min.css">
 	<link rel="stylesheet" href="assets/css/normolize.css">
 	<!-- [Свои стили] -->
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<!-- [Конец своих стилей] -->
 
 </head>
@@ -18,32 +18,33 @@
 
 	<div class="container_1-background">
 		<header class="container_1-header">
-			<p>+7 (727) 123 23 23</p>
+			<p>dtnc4bfoh@mozmail.com</p>
 			<div>
 				<img src="assets/img/container1/header_logo.png" alt="logo">
 				<img src="assets/img/container1/header_logo_text.png" alt="logo_text">
 			</div>
 			<div>
 				<p>RU</p>
-				<img src="assets/img/container1/header_languge_arrow.png" alt="header_arrow">
 			</div>
 		</header>
 
-		<div class="container_1">
+		<div class="container_1 animate__animated animate__fadeIn wow">
 			<div class="container_1-container-text-left">
 				<p>Выбери свой путь к совершенству</p>
 				<p>Ты можешь уже сегодня начать вести <br> здоровый образ жизни вместе с нами!</p>
-				<button>Подробнее</button>
+				<a href="#container_2">
+					<button>Подробнее</button>
+				</a>
 			</div>
 			<div class="container_1-container-image-right">
 				<img class="container_1-container-image-right-background" src="assets/img/container1/lungs.png" alt="лёгкие">
 			</div>
 		</div>
-		<div class="container_2">
+		<div id="container_2" class="container_2 animate__animated animate__fadeInUp wow">
 			<p>Число курильщиков в мире достигло <br> рекордных 1,1 млрд</p>
 			<p>Каждый день число курящих растет с возрастной группой: от 6,9% среди <br> подростков 15–19 лет до 32,5% для людей 40–50 лет</p>
 		</div>
-		<div class="container_3">
+		<div class="container_3 animate__animated animate__fadeInUp wow">
 			<div class="container_3-container-text">
 				<p>Данные исследований состояния <br> здоровья населения</p>
 				<p>проведенных Росстатом, табак потребляли 24,2% россиян <br> Доля курящих среди мужчин составляла 40%, среди женщин — 11%</p>
@@ -65,7 +66,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container_4">
+		<div class="container_4 animate__animated animate__fadeInUp wow">
 			<div class="container_4-container-statistic">
 				<div class="container_4-1">
 					<p>90%</p>
@@ -81,7 +82,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container_5">
+		<div class="container_5 animate__animated animate__fadeInUp wow">
 			<div class="container_5-container-text">
 				<p>Инструменты для ваших целей</p>
 				<p>Хотите улучшить собственный тонус, замедлить процессы старения или приложить усилия для общего оздоровления? Мы предоставим вам необходимый инструмент для достижения поставленных целей.</p>
@@ -106,12 +107,12 @@
 				</div>
 			</div>
 			<div>
-				<a href="#">
+				<a href="#container_6">
 					<button class="container_5-button">Начните свою новую жизнь уже сегодня!</button>
 				</a>
 			</div>
 		</div>
-		<div class="container_6">
+		<div id="container_6" class="container_6 animate__animated animate__fadeInUp wow">
 			<div class="container_6-text">
 				<p>Основные причины Здорового Образа Жизни</p>
 			</div>
@@ -130,7 +131,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container_7">
+		<div class="container_7 animate__animated animate__fadeInUp wow">
 			<div class="container_7-text">
 				<p>Что говорят <span class="container_7-text-2">врачи</span></p>
 			</div>
@@ -145,7 +146,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container_8">
+		<div class="container_8 animate__animated animate__fadeInUp wow">
 			<div class="container_8-text">
 				<p>Подключайте более 50 <br> приложений</p>
 				<p>Легко подключайтесь к приложениям, которые поддерживают ваш здоровый образ жизни<br> <span class="container_8-text-bold">Это о том, как чувствовать себя лучше, выглядеть лучше и жить лучше</span></p>
@@ -168,8 +169,8 @@
 				</a>
 			</div>
 		</div>
-		<footer class="container_9">
-			<p>По всем вопросам обращаться по номеру 8 (7272) 123 23 13 </p>
+		<footer class="container_9 animate__animated animate__fadeInUp wow">
+			<p>По всем вопросам обращаться по номеру dtnc4bfoh@mozmail.com </p>
 			<p>Политика конфиденциальности</p>
 			<p>© 2022  Company</p>
 		</footer>
@@ -177,5 +178,9 @@
 </div>
 
 	<script src="assets/js/index.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
