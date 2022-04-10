@@ -394,3 +394,16 @@ time, mark, audio, video {
     vertical-align: baseline;
 
 }
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}Дневник поможет вам лучше узнать свои привычки и повысит вероятность достижения поставленных целей.
+
+
