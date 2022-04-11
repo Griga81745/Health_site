@@ -80,9 +80,6 @@
 }
 
 @media screen and (max-width: 1000px){
-    body, html{
-        max-width: 100%;
-    }
 
     .container_1-container-text-left>a>button:nth-child(1):hover{
         background-color: white;
