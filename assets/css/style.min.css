@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -700,9 +701,6 @@
     border-radius: 16px;
 }
 
-.container_7-flex-container-text:hover{
-    background-color: #0066EE;
-}
 
 .container_7-flex-container-text>p:nth-child(1){
     font-family: 'Montserrat';
