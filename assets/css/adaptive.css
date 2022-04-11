@@ -80,7 +80,10 @@
 }
 
 @media screen and (max-width: 1000px){
+<<<<<<< HEAD
 
+=======
+>>>>>>> a45152c1cba8ce7721ec1c379cc5155e604c319e
 
     .container_1-container-text-left>a>button:nth-child(1):hover{
         background-color: white;
